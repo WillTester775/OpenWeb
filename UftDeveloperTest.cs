@@ -26,7 +26,7 @@ namespace OpenWeb
         {
             //Code starts here 
 
-            var browser = BrowserFactory.Launch(BrowserType.Chrome);
+            BrowserFactory.Launch(BrowserType.Chrome);
 
         }
 
