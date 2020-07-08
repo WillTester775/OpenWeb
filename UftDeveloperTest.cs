@@ -24,7 +24,7 @@ namespace OpenWeb
         [TestMethod]
         public void OpenBrowserMethod()
         {
-            //Code starts here
+            //Code starts here 
 
             var browser = BrowserFactory.Launch(BrowserType.InternetExplorer);
 
