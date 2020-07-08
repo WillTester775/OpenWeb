@@ -26,24 +26,8 @@ namespace OpenWeb
         {
             //Code starts here 
 
-            var browser = BrowserFactory.Launch(BrowserType.InternetExplorer);
+            var browser = BrowserFactory.Launch(BrowserType.Chrome);
 
-            var enterYourSearchTermEditField = browser.Describe<IEditField>(new EditFieldDescription
-            {
-                Name = @"q",
-                Placeholder = string.Empty,
-                TagName = @"INPUT",
-                Type = @"search"
-            });
-            enterYourSearchTermEditField.SetValue("hello");
-
-            var webSearchButton = browser.Describe<IButton>(new ButtonDescription
-            {
-                ButtonType = @"submit",
-                Name = @"web search",
-                TagName = @"BUTTON"
-            });
-            webSearchButton.Click();
         }
 
         [TestCleanup]
