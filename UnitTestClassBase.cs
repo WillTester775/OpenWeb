@@ -1,12 +1,7 @@
-﻿using System;
-using System.Data;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Threading;
-using HP.LFT.Report;
+﻿using HP.LFT.Report;
 using HP.LFT.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Data;
 
 namespace OpenWeb
 {

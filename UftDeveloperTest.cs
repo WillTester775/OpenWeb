@@ -1,8 +1,5 @@
-﻿using System;
+﻿using HP.LFT.SDK.Web;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using HP.LFT.SDK;
-using HP.LFT.Verifications;
-using HP.LFT.SDK.Web;
 
 namespace OpenWeb
 {
@@ -24,7 +21,7 @@ namespace OpenWeb
         [TestMethod]
         public void OpenBrowserMethod()
         {
-            IBrowser browser = BrowserFactory.Launch(BrowserType.Chrome);
+            IBrowser browser = BrowserFactory.Launch(BrowserType.InternetExplorer);
 
         }
 
